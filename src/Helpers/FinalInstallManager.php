@@ -35,7 +35,7 @@ class FinalInstallManager
             Artisan::call('key:generate', ["--force"=> true], $outputLog);
         }
         catch(Exception $e){
-            return $this->response($e->getMessage());
+            // return $this->response($e->getMessage());
         }
 
         return $outputLog;
@@ -53,7 +53,7 @@ class FinalInstallManager
             Artisan::call('vendor:publish',[],$outputLog);
         }
         catch(Exception $e){
-            return $this->response($e->getMessage());
+            // return $this->response($e->getMessage());
         }
 
         return $outputLog;

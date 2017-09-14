@@ -38,7 +38,7 @@ class DatabaseManager
             Artisan::call('migrate', ["--force"=> true], $outputLog);
         }
         catch(Exception $e){
-            return $this->response($e->getMessage());
+            return $this->response($e->getMessage(),'danger',$outputLog);
         }
 
         return $this->seed($outputLog);
@@ -56,7 +56,7 @@ class DatabaseManager
             Artisan::call('db:seed', [], $outputLog);
         }
         catch(Exception $e){
-            return $this->response($e->getMessage());
+             return $this->response($e->getMessage(),'danger',$outputLog);
         }
 
         return $this->response(trans('installer_messages.final.finished'), 'success', $outputLog);
