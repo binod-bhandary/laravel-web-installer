@@ -1,0 +1,24 @@
+{
+    "name": "vinus/laravel-web-installer",
+    "description": "laravel package for web installer",
+    "type": "library",
+    "require": {
+        "#": "1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vinod bhandary",
+            "email": "vinod.neptrox@gmail.com"
+        }
+    ],
+     "autoload": {
+    "psr-4": {
+      "Vinus\\LaravelWebInstaller\\": "src/"
+    },
+    "files": [
+      "src/Helpers/functions.php"
+    ]
+  },
+    "minimum-stability": "stable"
+}
