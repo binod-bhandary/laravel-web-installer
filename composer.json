@@ -20,5 +20,5 @@
       "src/Helpers/functions.php"
     ]
   },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
