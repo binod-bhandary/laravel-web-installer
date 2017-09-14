@@ -3,7 +3,7 @@
     "description": "laravel package for web installer",
     "type": "library",
     "require": {
-        "#": "1.0"
+       "php": ">=7.0.0",
     },
     "license": "MIT",
     "authors": [
@@ -20,5 +20,6 @@
       "src/Helpers/functions.php"
     ]
   },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev",
+    "prefer-stable" : true
 }
