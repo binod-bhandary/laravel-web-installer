@@ -39,6 +39,13 @@ The current features are :
 ```bash
     composer require vinus/laravel-web-installer
 ```
+ 
+ OR in laravel 5.5
+
+```bash
+    composer require "vinus/laravel-web-installer @dev"
+
+```
 
 2. Register the package with laravel in `config/app.php` under `providers` with the following:
 
