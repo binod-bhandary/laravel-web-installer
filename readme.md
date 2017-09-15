@@ -46,7 +46,7 @@ The current features are :
 
 ```php
 	'providers' => [
-	    vinus\LaravelWebInstaller\Providers\LaravelWebInstallerServiceProvider::class,
+	    Vinus\LaravelWebInstaller\Providers\LaravelWebInstallerServiceProvider::class,
 
 	];
 ```
