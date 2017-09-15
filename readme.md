@@ -37,15 +37,10 @@ The current features are :
 1. From your projects root folder in terminal run:
 
 ```bash
-    composer require vinus/laravel-web-installer
-```
- 
- OR in laravel 5.5
-
-```bash
-    composer require "vinus/laravel-web-installer @dev"
+     composer require "vinus/laravel-web-installer"
 
 ```
+
 
 2. Register the package with laravel in `config/app.php` under `providers` with the following:
 
