@@ -16,7 +16,6 @@
         },
         "files": ["src/Helpers/functions.php"]
     },
-    "version": "1.0",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
